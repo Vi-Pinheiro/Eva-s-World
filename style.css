@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Mark Pro';
+    src: url(fontes/MARKPRO.OTF) format(Opentype);
+}
+
+@font-face {
+    font-family: 'Vecna';
+    src: url(fontes/Vecna-oppx.ttf);
+}
+
+@font-face {
+    font-family: 'Dragonhunter';
+    src: url(fontes/DragonHunter.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/*GLOBAIS*/
+
+p {
+    text-align: justify;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Mark Pro';
+}
+
+/*INDIVIDUAIS*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #1f1f1f;
+    margin: 0px;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.445);
+}
+
+header div {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+header > div > nav > a {
+    font-family: 'Mark Pro';
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px 15px;
+}
+
+nav > a:hover {
+    color: #FF0008;  
+}
+
+header img {
+    max-width: 150px;
+    margin: 5px 50px 0px 0px;
+    padding: 10px;
+}
+
+#resumo {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#resumo > h1 {
+    font-family: 'Dragonhunter';
+    font-weight: bold;
+    font-size: 5em;
+    margin: 50px;
+    text-align: center;
+}
+
+#resumo > p {
+    font-family: 'Vecna';
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px;
+}
+
+#painel {
+    max-width: 100%;
+    margin: 0px;
+}
+
+aside {
+    background-color: #FF0008;
+    margin: 0px;
+}
+
+aside > h1 {
+    font-family: 'Vecna';
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+#personagens {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    overflow: auto;
+}
+
+.aventureiro {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.508);
+}
+
+.aventureiro > h2 {
+    background-color: #1f1f1f;
+    color: #FF0008;
+    font-size: 1.2em;
+    margin: -10px;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+}
+
+.aventureiro > img {
+    max-width: 200px;
+    margin: 10px -10px -4px -10px;
+}
+
+.aventureiro > p {
+    font-family: 'Mark Pro';
+    background-color: white;
+    color: #1f1f1f;
+    text-align: center;
+    margin: 0px -10px -10px -10px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+footer {
+    background-color: #1f1f1f;
+}
+
+footer > div {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+footer p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    display: block;
+    margin: auto;
+    color: white;
+    padding: 10px;
+}
