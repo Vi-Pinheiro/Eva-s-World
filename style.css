@@ -69,6 +69,21 @@ header img {
     padding: 10px;
 }
 
+#main-second {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+#main-second p {
+    font-size: 1.1em;
+    line-height: 25px;
+}
+
+#assinatura p {
+    font-size: 0.8em;
+}
+
 #resumo {
     max-width: 1200px;
     margin: auto;
@@ -136,18 +151,19 @@ aside > h1 {
 }
 
 .aventureiro > img {
-    max-width: 200px;
+    max-width: 240px;
     margin: 10px -10px -4px -10px;
 }
 
 .aventureiro > p {
     font-family: 'Mark Pro';
+    font-weight: bold;
     background-color: white;
     color: #1f1f1f;
     text-align: center;
-    margin: 0px -10px -10px -10px;
+    margin: 0px -10px -11px -10px;
     padding: 10px 0px 10px 10px;
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 footer {
@@ -158,13 +174,33 @@ footer > div {
     max-width: 1200px;
     margin: auto;
     display: flex;
+    align-items: center;
 }
 
 footer p {
     font-family: "Bebas Neue", sans-serif;
+    font-size: 1.2em;
     font-weight: normal;
-    display: block;
-    margin: auto;
     color: white;
+    margin: 0px;
     padding: 10px;
 }
+
+#redes-sociais {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+}
+
+#redes-sociais > li {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.imagem-redes {
+    max-width: 30px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+    margin: 0px 10px 0px 0px;
+    }
