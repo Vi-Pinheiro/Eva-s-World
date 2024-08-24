@@ -69,9 +69,24 @@ header img {
     padding: 10px;
 }
 
-#main-second {
+#intro {
     max-width: 1200px;
     margin: auto;
+}
+
+#intro > h1 {
+    font-family: 'Dragonhunter';
+    font-weight: bold;
+    font-size: 5em;
+    margin: 50px;
+    text-align: center;
+}
+
+#intro > p {
+    font-family: 'Vecna';
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
     padding: 10px;
 }
 
@@ -80,28 +95,30 @@ header img {
     line-height: 25px;
 }
 
+#main-second h1 {
+    color: #FF0008;
+    font-size: 2em;
+}
+
 #assinatura p {
     font-size: 0.8em;
 }
 
-#resumo {
+.resumo_w {
     max-width: 1200px;
     margin: auto;
+    padding: 10px;
+    background-color: white;
 }
 
-#resumo > h1 {
-    font-family: 'Dragonhunter';
-    font-weight: bold;
-    font-size: 5em;
-    margin: 50px;
-    text-align: center;
+.resumo_b {
+    background-color: #1f1f1f;
+    color: white;
 }
 
-#resumo > p {
-    font-family: 'Vecna';
-    font-weight: bold;
-    font-size: 1.3em;
-    text-align: center;
+.resumo_b > div {
+    max-width: 1200px;
+    margin: auto;
     padding: 10px;
 }
 
