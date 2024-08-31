@@ -50,13 +50,19 @@ header div {
     align-items: center;
 }
 
+header nav {
+    position: absolute;
+    left: 59%;
+    margin: 10px 0px;
+}
+
 header > div > nav > a {
     font-family: 'Mark Pro';
     font-size: 1em;
     font-weight: bold;
     text-decoration: none;
     color: white;
-    margin: 0px 0px 0px 15px;
+    margin: 0px 5px 0px 15px;
 }
 
 nav > a:hover {
@@ -69,6 +75,16 @@ header img {
     padding: 10px;
 }
 
+#bg_intro {
+    position: relative;
+    background-color: white;
+    background-image: url(imagens/bg_intro_white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed; 
+}
+
 #intro {
     max-width: 1200px;
     margin: auto;
@@ -78,7 +94,8 @@ header img {
     font-family: 'Dragonhunter';
     font-weight: bold;
     font-size: 5em;
-    margin: 50px;
+    margin: 0px 50px 50px;
+    padding: 50px 0px 0px 0px;
     text-align: center;
 }
 
