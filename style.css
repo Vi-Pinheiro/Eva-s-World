@@ -75,6 +75,8 @@ header img {
     padding: 10px;
 }
 
+/*INDEX*/
+
 #bg_intro {
     position: relative;
     background-color: white;
@@ -104,38 +106,6 @@ header img {
     font-weight: bold;
     font-size: 1.3em;
     text-align: center;
-    padding: 10px;
-}
-
-#main-second p {
-    font-size: 1.1em;
-    line-height: 25px;
-}
-
-#main-second h1 {
-    color: #FF0008;
-    font-size: 2em;
-}
-
-#assinatura p {
-    font-size: 0.8em;
-}
-
-.resumo_w {
-    max-width: 1200px;
-    margin: auto;
-    padding: 10px;
-    background-color: white;
-}
-
-.resumo_b {
-    background-color: #1f1f1f;
-    color: white;
-}
-
-.resumo_b > div {
-    max-width: 1200px;
-    margin: auto;
     padding: 10px;
 }
 
@@ -199,6 +169,82 @@ aside > h1 {
     padding: 10px 0px 10px 10px;
     border-radius: 0px 0px 5px 5px;
 }
+
+/*PARTIDAS*/
+
+#main-second p {
+    font-size: 1.1em;
+    line-height: 25px;
+}
+
+#main-second h1 {
+    color: #FF0008;
+    font-size: 2em;
+}
+
+#assinatura p {
+    font-size: 0.8em;
+}
+
+.resumo_w {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.resumo_b {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.resumo_b > div {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+/*PLAYERS*/
+
+#main_players {
+    background-color: #1f1f1f;
+}
+
+#painel_players {
+    position: relative;
+    height: 400px;
+    background-color: #1f1f1f;
+    background-image: url(imagens/painel-4-players.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 5px solid #FF0008;
+}
+
+#painel_players > h1 {
+    position: absolute;
+    font-size: 3em;
+    color: white;
+    margin: 0px;
+}
+
+#conteiner {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 0px;
+}
+
+/* Tudo errado - Corrigir --------------------------------------*/
+
+.img_player {
+    max-width: 300px;
+}
+
+.img_aventureiro {
+    max-width: 130px;
+}
+
+/*FOOTER*/
 
 footer {
     background-color: #1f1f1f;
