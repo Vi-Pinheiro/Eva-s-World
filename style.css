@@ -52,7 +52,7 @@ header div {
 
 header nav {
     position: absolute;
-    left: 59%;
+    left: 69%;
     margin: 10px 0px;
 }
 
@@ -221,11 +221,17 @@ aside > h1 {
     border-top: 5px solid #FF0008;
 }
 
-#painel_players > h1 {
+#painel_players > div {
+   max-width: 1200px;
+   margin: auto;
+}
+
+#painel_players > div > h1 {
     position: absolute;
-    font-size: 3em;
+    font-size: 5em;
     color: white;
-    margin: 0px;
+    margin: 95px 10px 10px 10px;
+    padding: 10px;
 }
 
 #conteiner {
