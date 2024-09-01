@@ -207,7 +207,7 @@ aside > h1 {
 /*PLAYERS*/
 
 #main_players {
-    background-color: #1f1f1f;
+    background-color: white;
 }
 
 #painel_players {
@@ -231,17 +231,70 @@ aside > h1 {
 #conteiner {
     max-width: 1200px;
     margin: auto;
-    padding: 15px 0px;
+    padding: 0px 0px;
 }
 
-/* Tudo errado - Corrigir --------------------------------------*/
+.conteudo_player {
+    background-color: white;
+    background-image: url(imagens/bg_players.jpg);
+    background-position: top bottom;
+    background-size: cover;
+    display: flex;
+}
+
+.conteudo_player > picture {
+    display: flex;
+}
+
+.informes_player {
+    padding: 10px 20px 10px 10px;
+}
+
+.informes_player > h1 {
+    font-size: 2em;
+    margin: 0px 0px 20px 0px;
+}
+
+.conteudo_player_2 {
+    background-color: #1f1f1f;
+    background-image: url(imagens/bg_players_2.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+}
+
+.conteudo_player_2 > picture {
+    display: flex;
+}
+
+.informes_player_2 {
+    padding: 10px 20px 10px 10px;
+}
+
+.informes_player_2 > h1 {
+    font-size: 2em;
+    margin: 0px 0px 20px 0px;
+    color: white;
+}
+
+.informes_player_2 > h2, .informes_player_2 > p {
+    color: white;
+}
+
+.aventureiros_player {
+    display: block;
+}
 
 .img_player {
     max-width: 300px;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
 }
 
 .img_aventureiro {
     max-width: 130px;
+    border-radius: 30px 0px 30px 0px;
+    padding: 10px 0px 0px;
 }
 
 /*FOOTER*/
