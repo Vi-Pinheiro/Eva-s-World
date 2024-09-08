@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#main-second p {
+    font-size: 1.1em;
+    line-height: 25px;
+}
+
+#main-second h1 {
+    color: #FF0008;
+    font-size: 2em;
+}
+
+#assinatura p {
+    font-size: 0.8em;
+}
+
+.resumo_w {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.resumo_b {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.resumo_b > div {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}

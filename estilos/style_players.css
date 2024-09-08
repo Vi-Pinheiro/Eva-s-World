@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+#main_players {
+    background-color: white;
+}
+
+#painel_players {
+    position: relative;
+    height: 400px;
+    background-color: #1f1f1f;
+    background-image: url(../imagens/painel-4-players.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 5px solid #FF0008;
+}
+
+#painel_players > div {
+   max-width: 1200px;
+   margin: auto;
+}
+
+#painel_players > div > h1 {
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    margin: 95px 10px 10px 10px;
+    padding: 10px;
+}
+
+#conteiner {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 0px;
+}
+
+.conteudo_player {
+    background-color: white;
+    background-image: url(../imagens/bg_players.jpg);
+    background-position: top bottom;
+    background-size: cover;
+    display: flex;
+}
+
+.conteudo_player > picture {
+    display: flex;
+}
+
+.informes_player {
+    padding: 10px 20px 10px 10px;
+}
+
+.informes_player > h1 {
+    font-size: 2em;
+    margin: 0px 0px 20px 0px;
+}
+
+.conteudo_player_2 {
+    background-color: #1f1f1f;
+    background-image: url(../imagens/bg_players_2.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+}
+
+.conteudo_player_2 > picture {
+    display: flex;
+}
+
+.informes_player_2 {
+    padding: 10px 20px 10px 10px;
+}
+
+.informes_player_2 > h1 {
+    font-size: 2em;
+    margin: 0px 0px 20px 0px;
+    color: white;
+}
+
+.informes_player_2 > h2, .informes_player_2 > p {
+    color: white;
+}
+
+.aventureiros_player {
+    display: block;
+}
+
+.img_player {
+    max-width: 300px;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.img_aventureiro {
+    max-width: 130px;
+    border-radius: 30px 0px 30px 0px;
+    padding: 10px 0px 0px;
+}
