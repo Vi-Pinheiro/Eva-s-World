@@ -47,13 +47,13 @@ header div {
     max-width: 1200px;
     margin: auto;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 header nav {
-    position: absolute;
-    left: 69%;
-    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
 }
 
 header > div > nav > a {
